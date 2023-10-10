@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;  
+    padding: 10px 50px 0px 50px;
+    background: linear-gradient(72deg, rgba(61, 38, 55, 0.9) 2%, purple 98%);
+    /** outra possibilidade de bg= background: linear-gradient(72deg, #e0c5e0 3%, rgb(202, 90, 202) 97%);**/
+    font-family: 'Mukta', sans-serif;
+}   
+
+h1, h2 {
+    margin: 0px;
+}
+
+#logoImg {
+    width: 175px;
+}
+
+#logo { 
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+    align-items: center;
+}
+ 
+header h1 {
+    font-size: 4rem;
+    user-select: none;
+    font-family: 'Rubik Puddles', cursive;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+}
+
+.Menu {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+}
+
+.Menu a {
+    padding: 14px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.4s;
+}
+
+.Menu a:hover {
+    background-color: white;
+    color: purple;
+}
+
+.imagensAdidas {
+    width: 200px;
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+.imagensAdidas:hover {
+    box-shadow: 0px 0px 15px white;
+    border-radius: 5px;
+}
+
+.ColunaPrincipal {
+    margin-top: 15px;
+}
+
+#boxadidas {
+    background-color: rgb(31, 28, 28);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.imagensNike {
+    width: 200px;
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+.imagensNike:hover {
+    box-shadow: 0px 0px 15px white;
+    border-radius: 5px;
+}
+
+#boxnike {
+    background-color: rgb(31, 28, 28);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#tituloadidas {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    width: 250px;
+    background-color: rgb(31, 28, 28);
+    text-align: center;
+    color: white;
+}
+
+#tituloNike {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    width: 250px;
+    background-color: rgb(31, 28, 28);
+    text-align: center;
+    color: white;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: aliceblue;
+    margin-left: -50px;
+    margin-right: -50px;
+    
+}
+
+.relogio {
+    width: 50px;  
+    height: 50px ;  
+}
+
+.cartao {
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+}
+
+.preços {
+    color: white;
+    text-align: center;
+}
+
+.toporodape {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+} 
+
+.listas {
+    display: flex;
+}
+
+.logos {
+    width: 30px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.baixorodape {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+
+.imagensrodape {
+    margin-left: 50px;
+}
+
+.botao {
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    text-align: center;
+    width: 150px;
+    height: 28px;
+    align-items: center;
+    border-radius: 2px;
+    margin-left: 50px;
+}
+
+.imagemtelefone {
+    width: 30px;
+    height: 30px;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    align-items: center;
+    height: 20px;
+}
+
+.contato p {
+    margin-left: 5px;
+}
+
